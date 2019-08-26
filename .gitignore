@@ -1,0 +1,9 @@
+.DS_Store
+*.config
+*.zip
+*.rar
+*.txt
+*.psd
+dev/*.pdf
+node_modules/
+package-lock.json
