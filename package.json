@@ -1,12 +1,12 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creative coding project inspired by poolside.fm and plaza.one\r helloooo",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Lucas",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -24,5 +24,13 @@
   "dependencies": {
     "aos": "^2.3.0",
     "node-sass": "^4.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeckyPollard/super-computer-1000.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BeckyPollard/super-computer-1000/issues"
+  },
+  "homepage": "https://github.com/BeckyPollard/super-computer-1000#readme"
 }

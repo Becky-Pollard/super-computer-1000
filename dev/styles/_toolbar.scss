@@ -1,0 +1,19 @@
+.toolbar {
+width: 100%;
+background: #C0C0C0;
+position: absolute;
+bottom: 0;
+border-style: outset;
+padding: 2px 0px;
+}
+.toolbar ul li {
+float: left;
+line-height: 30px;
+padding: 0px 5px;
+border-style: outset;
+}
+
+.toolbar ul .time {
+    float: right;
+    border-style: inset;
+}
