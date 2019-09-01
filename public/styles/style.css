@@ -159,11 +159,28 @@ ul {
   float: left;
   line-height: 30px;
   padding: 0px 5px;
-  border-style: outset; }
+  border-style: outset;
+  position: relative;
+  text-transform: capitalize;
+  font-family: 'VT323', monospace, sans-serif; }
+
+.toolbar ul li:not(.time):hover {
+  background: grey; }
+
+.toolbar ul .start {
+  padding-left: 27px;
+  font-weight: 900; }
+
+.toolbar ul .start img {
+  width: 25px;
+  position: absolute;
+  left: 0px;
+  top: 5px; }
 
 .toolbar ul .time {
   float: right;
-  border-style: inset; }
+  border-style: inset;
+  text-transform: none; }
 
 /*⎕⎕⎕⎕⎕ LAYOUT ⎕⎕⎕⎕⎕*/
 body {
