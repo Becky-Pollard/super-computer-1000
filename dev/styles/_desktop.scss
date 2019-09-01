@@ -1,0 +1,23 @@
+.desktop {
+    width: 100vw;
+    padding: 10px;
+}
+.desktop ul li {
+    width: 60px;
+    text-align: center;
+    border: transparent solid 1px;
+    padding: 0px 4px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.desktop ul li:hover{
+    background: rgba(255, 255, 255, 0.10);
+    border: rgba(255, 255, 255, 0.25) solid 1px; 
+}
+.desktop ul li img {
+    width: 45px;
+}
